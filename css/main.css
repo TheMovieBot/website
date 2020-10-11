@@ -29,8 +29,15 @@ body {
      background: #AD91FF !important;
  }
 .navbar {
-    box-shadow: none !important
+    box-shadow: none !important;
 }
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        margin-left: 30%;
+    }
+  }
+
 
 .navbar-brand {
     font-size: 25px !important
@@ -204,4 +211,9 @@ color: rgba(255, 255, 255, 0.46) !important
 .footer .bot-footer {
     text-align: center !important;
     color: #a2a8bd !important
+}
+
+#gmail
+{
+    color: #ad91ff;
 }
